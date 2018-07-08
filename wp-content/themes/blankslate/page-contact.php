@@ -2,7 +2,7 @@
 <h1>page-contact.php</h1>
 <!-- Project slider -->
 <section class="white-bkg lg-margin-bottom">
- <?php echo do_shortcode('[slide-anything id="6"]'); ?>
+ <?php echo do_shortcode('[rev_slider alias="header_slider"]'); ?>
 </section>
 <!-- End Of Project slider -->
 <!-- Start of Form -->

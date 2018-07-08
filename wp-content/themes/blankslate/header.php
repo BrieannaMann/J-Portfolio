@@ -20,7 +20,7 @@
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
 <nav id="menu" role="navigation">
-  <div class="flex align-center space-between lg-padding white-bkg">
+  <div class="flex align-items-center justify-between lg-padding white-bkg">
     <img src="<?php echo get_template_directory_uri().'/assets/images/Julie-Logo.png'?>" alt="logo">
     <?php wp_nav_menu(); ?>
   </div>
