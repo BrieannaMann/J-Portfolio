@@ -52,6 +52,9 @@ body{
 .width-50{
   width: 50%;
 }
+.width-60{
+  width: 60%;
+}
 .width-70{
   width: 70%;
 }
@@ -86,6 +89,9 @@ body{
 }
 .white-bkg{
   background-color: #fff;
+}
+.green-bkg{
+  background-color: #9ac053;
 }
 /* Padding */
 .sm-padding{
@@ -147,6 +153,9 @@ body{
   padding-top: 5em;
 }
 .about-padding{
+  padding: 5em;
+}
+.project-padding{
   padding: 5em;
 }
 /* Margin */
@@ -373,4 +382,8 @@ footer div h2{
 }
 .object-contain{
   object-fit: contain;
+}
+/* Project Slider */
+.tp-bullets{
+  top: 41% !important;
 }

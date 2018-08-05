@@ -57,6 +57,9 @@
   .about-padding{
     padding: 2em;
   }
+  .project-padding{
+    padding: 2em;
+  }
   .m-direction-column{
     flex-direction: column;
   }
@@ -117,5 +120,8 @@
   }
   .sm-direction-column-reverse{
     flex-direction: column-reverse;
+  }
+  .tp-bullets{
+    top: 34% !important;
   }
 }
