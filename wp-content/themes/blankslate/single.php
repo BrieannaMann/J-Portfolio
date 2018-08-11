@@ -3,7 +3,7 @@
 <!-- Project slider -->
 <section class="white-bkg lg-margin-bottom">
   <div class="xlg-padding flex">
-  <img class="width-100 object-cover" src="<?php the_field('hero_image'); ?>"/>
+    <div><?php echo do_shortcode( '[rev_slider alias="'.get_field('hero_slider').'"]' ); ?></div>
 </div>
 </section>
 <!-- End Of Project slider -->
@@ -38,89 +38,14 @@
 <section class="white-bkg lg-margin-bottom">
   <div class="about-padding flex flex-wrap" style="background: url('<?php echo get_template_directory_uri().'/assets/images/Oval BG.png'?>')">
     <!-- ROW 1 -->
-  <div class="width-25 m-width-50 sm-width-100">
-    <img src="<?php the_field('user_image'); ?>" width="100%;">
+  <div class="width-75 sm-width-100">
     <div class="green-bkg">
-      <p class="white-font bold-font"><?php the_field('user_info'); ?></p>
+       <img src="<?php the_field('persona_image'); ?>">
     </div>
   </div>
 
-
-    <!-- ROW 2 -->
-    <div class="width-25 m-width-50 sm-width-100">
-      <div class="med-padding-left">
-      <!-- Biography -->
-    <div>
-      <div class="flex">
-        <img src="<?php the_field('bio_icon'); ?>">
-        <p class="bold-font"><?php the_field('biography_title'); ?></p>
-      </div>
-        <div class="med-padding-left"><?php the_field('biography_desc'); ?></div>
-    </div>
-    <!-- Motivations -->
-    <div>
-      <div class="flex">
-        <img src="<?php the_field('motivation_icon'); ?>">
-        <p class="bold-font"><?php the_field('motivation_title'); ?></p>
-      </div>
-      <div class="move-left"><?php the_field('motivation_desc'); ?></div>
-    </div>
-    <!-- Goals -->
-    <div>
-      <div class="flex">
-        <img src="<?php the_field('goals_icon'); ?>">
-        <p class="bold-font"><?php the_field('goals_title'); ?></p>
-      </div>
-      <div class="move-left"><?php the_field('goals_desc'); ?></div>
-    </div>
-    <!-- Fustrations -->
-    <div>
-      <div class="flex">
-        <img src="<?php the_field('frustrations_icon'); ?>">
-        <p class="bold-font"><?php the_field('frustrations_title'); ?></p>
-      </div>
-      <div class="move-left"><?php the_field('frustrations_desc'); ?></div>
-    </div>
-    <!-- Top Deciding Factors -->
-    <div>
-      <div class="flex">
-        <img src="<?php the_field('deciding_factors_icon'); ?>">
-        <p class="bold-font"><?php the_field('deciding_factors_title'); ?></p>
-      </div>
-        <div class="med-padding-left">
-        <div class="green-bkg" style="width:<?php the_field('atmosphere_percent'); ?>;"><p class="white-font">Hello </p></div>
-        <div class="green-bkg" style="width:<?php the_field('price_percent'); ?>;"><p class="white-font">Hello </p></div>
-        <div class="green-bkg" style="width:<?php the_field('location_percent'); ?>;"><p class="white-font">Hello </p></div>
-        <div class="green-bkg" style="width:<?php the_field('good_reviews_percent'); ?>;"><p class="white-font">Hello </p></div>
-        <div class="green-bkg" style="width:<?php the_field('convenience_percent'); ?>;"><p class="white-font">Hello </p></div>
-      </div>
-    </div>
-  </div>
-</div>
-  <!-- ROW 3 -->
-  <div class="width-25 m-width-50 sm-width-100">
-    <div class="med-padding-left">
-    <div class="green-bkg">
-      <p><?php the_field('quote'); ?></p>
-    </div>
-    <div>
-      <!-- Words to Describe -->
-    <div>
-      <img src="<?php the_field('describe_words_icon'); ?>">
-      <h5><?php the_field('describe_words_title'); ?></h5>
-      <div><?php the_field('describe_words_desc'); ?></div>
-    </div>
-    <!-- Brands -->
-    <div>
-      <img src="<?php the_field('brand_icon'); ?>">
-      <h5><?php the_field('brand_title'); ?></h5>
-      <img src="<?php the_field('brand_images'); ?>">
-    </div>
-  </div>
-  </div>
-</div>
   <!-- ROW 4 -->
-  <div class="width-25 m-width-50 sm-width-100">
+  <div class="width-25 sm-width-100">
     <div class="med-padding-left">
       <h2><?php the_field('persona_title'); ?></h2>
       <p><?php the_field('persona_desc'); ?></p>
