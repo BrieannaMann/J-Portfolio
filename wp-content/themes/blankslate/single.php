@@ -51,37 +51,49 @@
       <div class="med-padding-left">
       <!-- Biography -->
     <div>
-      <img src="<?php the_field('bio_icon'); ?>">
-      <h5><?php the_field('biography_title'); ?></h5>
-      <div><?php the_field('biography_desc'); ?></div>
+      <div class="flex">
+        <img src="<?php the_field('bio_icon'); ?>">
+        <p class="bold-font"><?php the_field('biography_title'); ?></p>
+      </div>
+        <div class="med-padding-left"><?php the_field('biography_desc'); ?></div>
     </div>
     <!-- Motivations -->
     <div>
-      <img src="<?php the_field('motivation_icon'); ?>">
-      <h5><?php the_field('motivation_title'); ?></h5>
-      <div><?php the_field('motivation_desc'); ?></div>
+      <div class="flex">
+        <img src="<?php the_field('motivation_icon'); ?>">
+        <p class="bold-font"><?php the_field('motivation_title'); ?></p>
+      </div>
+      <div class="move-left"><?php the_field('motivation_desc'); ?></div>
     </div>
     <!-- Goals -->
     <div>
-      <img src="<?php the_field('goals_icon'); ?>">
-      <h5><?php the_field('goals_title'); ?></h5>
-      <div><?php the_field('goals_desc'); ?></div>
+      <div class="flex">
+        <img src="<?php the_field('goals_icon'); ?>">
+        <p class="bold-font"><?php the_field('goals_title'); ?></p>
+      </div>
+      <div class="move-left"><?php the_field('goals_desc'); ?></div>
     </div>
     <!-- Fustrations -->
     <div>
-      <img src="<?php the_field('frustrations_icon'); ?>">
-      <h5><?php the_field('frustrations_title'); ?></h5>
-      <div><?php the_field('frustrations_desc'); ?></div>
+      <div class="flex">
+        <img src="<?php the_field('frustrations_icon'); ?>">
+        <p class="bold-font"><?php the_field('frustrations_title'); ?></p>
+      </div>
+      <div class="move-left"><?php the_field('frustrations_desc'); ?></div>
     </div>
     <!-- Top Deciding Factors -->
     <div>
-      <img src="<?php the_field('deciding_factors_icon'); ?>">
-      <h5><?php the_field('deciding_factors_title'); ?></h5>
-      <div class="green-bkg" style="width:<?php the_field('atmosphere_percent'); ?>;"><p class="white-font">Hello </p></div>
-      <div class="green-bkg" style="width:<?php the_field('price_percent'); ?>;"><p class="white-font">Hello </p></div>
-      <div class="green-bkg" style="width:<?php the_field('location_percent'); ?>;"><p class="white-font">Hello </p></div>
-      <div class="green-bkg" style="width:<?php the_field('good_reviews_percent'); ?>;"><p class="white-font">Hello </p></div>
-      <div class="green-bkg" style="width:<?php the_field('convenience_percent'); ?>;"><p class="white-font">Hello </p></div>
+      <div class="flex">
+        <img src="<?php the_field('deciding_factors_icon'); ?>">
+        <p class="bold-font"><?php the_field('deciding_factors_title'); ?></p>
+      </div>
+        <div class="med-padding-left">
+        <div class="green-bkg" style="width:<?php the_field('atmosphere_percent'); ?>;"><p class="white-font">Hello </p></div>
+        <div class="green-bkg" style="width:<?php the_field('price_percent'); ?>;"><p class="white-font">Hello </p></div>
+        <div class="green-bkg" style="width:<?php the_field('location_percent'); ?>;"><p class="white-font">Hello </p></div>
+        <div class="green-bkg" style="width:<?php the_field('good_reviews_percent'); ?>;"><p class="white-font">Hello </p></div>
+        <div class="green-bkg" style="width:<?php the_field('convenience_percent'); ?>;"><p class="white-font">Hello </p></div>
+      </div>
     </div>
   </div>
 </div>
@@ -121,7 +133,8 @@
 <!-- End of work flow slider -->
 <!-- Project Slider -->
 <section class="white-bkg lg-margin-bottom">
- <?php echo do_shortcode('[rev_slider alias="Explore_project"]'); ?>
+
+  <div><?php echo do_shortcode( '[rev_slider alias="'.get_field('project_slider').'"]' ); ?></div>
 </section>
 <!-- End of Project Slider -->
 <!-- Take away section -->
