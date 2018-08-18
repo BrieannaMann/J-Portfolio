@@ -13,28 +13,28 @@
      <p class="med-padding-bottom"><?php the_field('case_study_desc'); ?></p>
    </div>
    <div class="case-study-img height-32 object-cover med-padding-bottom m-width-100">
-     <a href="<?php the_field('image_1_link'); ?>"><img src="<?php the_field('case_study_image_1'); ?>" class=" object-cover med-padding-bottom m-width-100"></a>
+     <a href="<?php the_field('image_1_link'); ?>"><img width="100%" src="<?php the_field('case_study_image_1'); ?>" class=" object-cover med-padding-bottom m-width-90"></a>
    </div>
    <div class="case-study-img height-32 object-cover med-padding-bottom m-width-100">
-        <a href="<?php the_field('image_2_link'); ?>"><img src="<?php the_field('case_study_image_2'); ?>" class=" object-cover med-padding-bottom m-width-100"></a>
+        <a href="<?php the_field('image_2_link'); ?>"><img width="100%" src="<?php the_field('case_study_image_2'); ?>" class=" object-cover med-padding-bottom m-width-90"></a>
     </div>
     <div class="case-study-img height-32 object-cover med-padding-bottom m-width-100">
-         <a href="<?php the_field('image_3_link'); ?>"><img src="<?php the_field('case_study_image_3'); ?>" class=" object-cover med-padding-bottom m-width-100"></a>
+         <a href="<?php the_field('image_3_link'); ?>"><img width="100%" src="<?php the_field('case_study_image_3'); ?>" class=" object-cover med-padding-bottom m-width-90"></a>
      </div>
      <div class="case-study-img height-32 object-cover med-padding-bottom m-width-100">
-          <a href="<?php the_field('image_4_link'); ?>"><img src="<?php the_field('case_study_image_4'); ?>" class=" object-cover med-padding-bottom m-width-100"></a>
+          <a href="<?php the_field('image_4_link'); ?>"><img width="100%" src="<?php the_field('case_study_image_4'); ?>" class=" object-cover med-padding-bottom m-width-90"></a>
       </div>
       <div class="case-study-img height-32 object-cover med-padding-bottom m-width-100">
-           <a href="<?php the_field('image_5_link'); ?>"><img src="<?php the_field('case_study_image_5'); ?>" class=" object-cover med-padding-bottom m-width-100"></a>
+           <a href="<?php the_field('image_5_link'); ?>"><img width="100%" src="<?php the_field('case_study_image_5'); ?>" class=" object-cover med-padding-bottom m-width-90"></a>
        </div>
        <div class="case-study-img height-32 object-cover med-padding-bottom m-width-100">
-            <a href="<?php the_field('image_6_link'); ?>"><img src="<?php the_field('case_study_image_6'); ?>" class=" object-cover med-padding-bottom m-width-100"></a>
+            <a href="<?php the_field('image_6_link'); ?>"><img width="100%" src="<?php the_field('case_study_image_6'); ?>" class=" object-cover med-padding-bottom m-width-90"></a>
         </div>
         <div class="case-study-img height-32 object-cover med-padding-bottom m-width-100">
-             <a href="<?php the_field('image_7_link'); ?>"><img src="<?php the_field('case_study_image_7'); ?>" class=" object-cover med-padding-bottom m-width-100"></a>
+             <a href="<?php the_field('image_7_link'); ?>"><img width="100%" src="<?php the_field('case_study_image_7'); ?>" class=" object-cover med-padding-bottom m-width-90"></a>
          </div>
          <div class="case-study-img height-32 object-cover med-padding-bottom m-width-100">
-              <a href="<?php the_field('image_8_link'); ?>"><img src="<?php the_field('case_study_image_8'); ?>" class=" object-cover med-padding-bottom m-width-100"></a>
+              <a href="<?php the_field('image_8_link'); ?>"><img width="100%" src="<?php the_field('case_study_image_8'); ?>" class=" object-cover med-padding-bottom m-width-90"></a>
           </div>
 
 </div>

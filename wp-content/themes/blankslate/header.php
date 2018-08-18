@@ -19,10 +19,36 @@
 <body <?php body_class(); ?> >
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
-<nav id="menu" role="navigation">
+<nav id="menu" role="navigation" class="desktop">
   <div class="flex align-items-center justify-between lg-padding white-bkg">
     <img src="<?php echo get_template_directory_uri().'/assets/images/Julie-Logo.png'?>" alt="logo">
     <?php wp_nav_menu(); ?>
+  </div>
+</nav>
+<nav id="menu" role="navigation" class="mobile">
+  <div class="flex align-items-center justify-between lg-padding white-bkg">
+    <img src="<?php echo get_template_directory_uri().'/assets/images/Julie-Logo.png'?>" alt="logo">
+    <div>
+    <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div id="hello" class="hide">
+      <?php wp_nav_menu(); ?>
+    </div>
+  </div>
+    <script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+        var x = document.getElementById("hello");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    }
+    </script>
   </div>
 </nav>
 </header>

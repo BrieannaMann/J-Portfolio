@@ -3,8 +3,8 @@
 <!-- Project slider -->
 <section class="white-bkg lg-margin-bottom">
   <div class="lg-padding flex sm-direction-column-reverse">
-  <div class="flex direction-column justify-center lg-padding-right">
-  <h1 class="grey-font">I'm</h1>
+  <div class="flex direction-column justify-center lg-padding-right m-sm-padding-top">
+  <h1 class="grey-font ">I'm</h1>
   <h1 class="secondary-color-font lg-padding-bottom">Julie Service</h1>
   <p><?php the_field('header_desc'); ?></p>
   </div>
@@ -47,7 +47,7 @@
      <h1><?php the_field('skills_title'); ?></h1>
    </div>
    <div class="width-32 flex direction-column justify-center lg-padding-bottom m-width-50 sm-width-100">
-     <div class="lg-padding-right">
+     <div class="lg-padding-right m-no-padding">
      <div class="flex">
        <img src="<?php the_field('skill_1_image'); ?>" class="width-auto object-contain med-padding-bottom">
         <h2 class="med-padding-left"><?php the_field('skill_1_title'); ?></h2>
@@ -56,7 +56,7 @@
       </div>
    </div>
    <div class="width-32 flex direction-column justify-center lg-padding-bottom m-width-50 sm-width-100">
-     <div class="lg-padding-right">
+     <div class="lg-padding-right m-no-padding">
     <div class="flex">
      <img src="<?php the_field('skill_2_image'); ?>" class="width-auto object-contain med-padding-bottom">
       <h2 class="med-padding-left"><?php the_field('skill_2_title'); ?></h2>
@@ -65,7 +65,7 @@
    </div>
    </div>
    <div class="width-32 flex direction-column justify-center lg-padding-bottom m-width-50 sm-width-100">
-     <div class="lg-padding-right">
+     <div class="lg-padding-right m-no-padding">
      <div class="flex">
      <img src="<?php the_field('skill_3_image'); ?>" class="width-auto object-contain med-padding-bottom">
       <h2 class="med-padding-left"><?php the_field('skill_3_title'); ?></h2>
@@ -74,7 +74,7 @@
     </div>
    </div>
    <div class="width-32 flex direction-column justify-center lg-padding-bottom m-width-50 sm-width-100">
-     <div class="lg-padding-right">
+     <div class="lg-padding-right m-no-padding">
     <div class="flex">
      <img src="<?php the_field('skill_4_image'); ?>" class="width-auto object-contain med-padding-bottom">
      <h2 class="med-padding-left"><?php the_field('skill_4_title'); ?></h2>
@@ -83,7 +83,7 @@
    </div>
    </div>
    <div class="width-32 flex direction-column justify-center lg-padding-bottom m-width-50 sm-width-100">
-     <div class="lg-padding-right">
+     <div class="lg-padding-right m-no-padding">
      <div class="flex">
      <img src="<?php the_field('skill_5_image'); ?>" class="width-auto object-contain med-padding-bottom">
      <h2 class="med-padding-left"><?php the_field('skill_5_title'); ?></h2>

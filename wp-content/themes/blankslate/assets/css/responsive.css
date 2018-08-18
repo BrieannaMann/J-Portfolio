@@ -1,12 +1,12 @@
 /* XL Large Devices */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1600px) {
   .xl-direction-row{
     flex-direction: row;
   }
   .xl-direction-column{
     flex-direction: column;
   }
-  .personal-image{
+  /* .personal-image{
     height: 400px;
     object-fit: cover;
     object-position: 100% 100%;
@@ -23,7 +23,7 @@
   }
   .main-personal-image{
     width: 100%;
-  }
+  } */
 }
 /* normal Large Devices */
 @media only screen and (man-width: 1115px) {
@@ -75,6 +75,9 @@
 .m-width-100{
   width: 100%;
 }
+.m-width-90{
+  width: 90%;
+}
 .person-image-section{
   flex-direction: column;
 }
@@ -99,12 +102,13 @@
     object-fit: cover;
     object-position: 100% 100%;
     width: 100%;
+    height: 100%;
   }
   .main-personal-image{
     object-fit: cover;
     object-position: 100% 100%;
     width: 100%;
-    height: 200px;
+    height: 100%;
   }
   .sm-direction-column{
     flex-direction: column;
@@ -124,4 +128,22 @@
   .tp-bullets{
     top: 34% !important;
   }
+  .tp-rightarrow{
+    left: 94% !important;
+  }
+  .view-all-btn{
+    padding: .1px;
+  }
+  .m-sm-padding-top{
+    padding-top: 1em;
+  }
+   .m-no-padding{
+     padding: 0 !important;
+   }
+   .desktop{
+     display: none;
+   }
+   .mobile{
+     display: block;
+   }
 }
