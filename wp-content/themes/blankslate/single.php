@@ -70,7 +70,7 @@
     <div class="width-32 m-width-100">
      <img src="<?php the_field('take_away_image'); ?>">
    </div>
-    <div class="width-60 m-width-100">
+    <div class="width-60 m-width-100 lg-padding-left">
       <p class="bold-font"><?php the_field('take_away_title'); ?></p>
       <p><?php the_field('take_away_desc'); ?></p>
     </div>
