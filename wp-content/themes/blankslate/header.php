@@ -22,13 +22,17 @@
 <header id="header" role="banner">
 <nav id="menu" role="navigation" class="desktop">
   <div class="flex align-items-center justify-between lg-padding white-bkg">
-    <img src="<?php echo get_template_directory_uri().'/assets/images/Julie-Logo.png'?>" alt="logo">
+    <a href="<?php echo get_template_directory_uri().'/home'?>">
+      <img src="<?php echo get_template_directory_uri().'/assets/images/Julie-Logo.png'?>" alt="logo">
+    </a>
     <?php wp_nav_menu(); ?>
   </div>
 </nav>
 <nav id="menu" role="navigation" class="mobile">
   <div class="flex align-items-center justify-between lg-padding white-bkg">
-    <img src="<?php echo get_template_directory_uri().'/assets/images/Julie-Logo.png'?>" alt="logo">
+    <a href="<?php echo get_template_directory_uri().'/home'?>">
+      <img src="<?php echo get_template_directory_uri().'/assets/images/Julie-Logo.png'?>" alt="logo">
+    </a>
     <div>
     <div class="container" onclick="myFunction(this)">
       <div class="bar1"></div>
